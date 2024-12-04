@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .content {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+    <script>
+        // Fungsi untuk menampilkan informasi tentang JavaScript
+        function tampilkanInformasi() {
+            const informasi = `
+                Pengertian: JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web interaktif.
+                Manfaat: Menambahkan interaktivitas dan meningkatkan pengalaman pengguna.
+                Tujuan: Meningkatkan interaktivitas dan membuat aplikasi web yang responsif.
+                Fungsi: Manipulasi DOM, validasi formulir, animasi, pengambilan data.
+            `;
+            alert(informasi);
+        }
+
+        // Fungsi untuk menampilkan pesan ketika tombol diklik
+        function tampilkanPesan() {
+            alert("Halo! Ini adalah pesan dari JavaScript.");
+        }
+    </script>
+</head>
+<body>
+    <h1>Materi JavaScript</h1>
+
+    <div class="content">
+        <h2>Pengertian</h2>
+        <p>JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web interaktif.</p>
+    </div>
+
+    <div class="content">
+        <h2>Manfaat</h2>
+        <p>JavaScript memungkinkan pengembang untuk menambahkan elemen dinamis dan interaktif ke dalam halaman web.</p>
+    </div>
+
+    <div class="content">
+        <h2>Tujuan</h2>
+        <p>Tujuan dari JavaScript adalah untuk meningkatkan interaktivitas dan membuat aplikasi web yang responsif.</p>
+    </div>
+
+    <div class="content">
+        <h2>Fungsi</h2>
+        <p>JavaScript memiliki berbagai fungsi, seperti manipulasi DOM, validasi formulir, animasi, dan pengambilan data.</p>
+    </div>
+
+    <div class="content">
+        <h2>Contoh Interaksi</h2>
+        <button onclick="tampilkanInformasi()">Tampilkan Informasi JavaScript</button>
+        <button onclick="tampilkanPesan()">Klik Saya!</button>
+    </div>
+</body>
+</html>
